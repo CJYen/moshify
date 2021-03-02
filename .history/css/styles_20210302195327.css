@@ -198,7 +198,5 @@ a {
     display: inline-block;
 }
 @media screen and (min-width: 1024px) {
-    .btn {
-        font-size: 1.5rem;
-    }
+
 }

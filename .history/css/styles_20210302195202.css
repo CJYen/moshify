@@ -188,17 +188,10 @@ a {
 .btn--accent:hover {
     background: #ec3000;
 }
-.btn--outline {
-    background: #fff;
-    color: var(--color-headings);
-    border: 2px solid var(--color-headings);
-}
 .btn--block {
     width: 100%;
     display: inline-block;
 }
 @media screen and (min-width: 1024px) {
-    .btn {
-        font-size: 1.5rem;
-    }
+    
 }
