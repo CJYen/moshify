@@ -140,7 +140,7 @@ a {
     fill: var(--color-primary);
 }
 .icon-container {
-    background: #f3f9fa;
+    background: gold;
     width: 64px;
     height: 64px;
     border-radius: 100%;
