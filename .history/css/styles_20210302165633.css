@@ -77,7 +77,6 @@ a {
     }
 }
 
-/* badge */
 .badge {
     border-radius: 20px;
     font-size: 2rem;
@@ -98,10 +97,5 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
-    .badge {
-        font-size: 1.5rem;
-    }
-    .badge--small {
-        font-size: 1.2rem;
-    }
+    
 }
