@@ -417,17 +417,8 @@ input
     right: -32px;
 }
 @media screen and (min-width: 768px) {
-    .testimonial__image {
-        margin: 0;
-      }
-
     .testimonial .quote, 
     .testimonial .quote__author {
-        font-size: 2.4rem;
+        font-size: 12.4rem;
     }
-    .testimonial.quote {
-        margin-left: 6rem;
-        /* margin-right: 0; */
-    }
-
 }

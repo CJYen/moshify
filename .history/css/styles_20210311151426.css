@@ -144,8 +144,8 @@ a {
     height: 40px;
 }
 .icon--small {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 .icon--primary {
     fill: var(--color-primary);
@@ -415,19 +415,4 @@ input
     position: absolute;
     top: 3rem;
     right: -32px;
-}
-@media screen and (min-width: 768px) {
-    .testimonial__image {
-        margin: 0;
-      }
-
-    .testimonial .quote, 
-    .testimonial .quote__author {
-        font-size: 2.4rem;
-    }
-    .testimonial.quote {
-        margin-left: 6rem;
-        /* margin-right: 0; */
-    }
-
 }
