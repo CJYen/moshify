@@ -297,9 +297,7 @@ input
         font-size: 5rem;
     }
     .plan__billing-cycle {
-        font-size: 1.6rem;
+        font-size: 16rem;
     }
-    .plan__description {
-        font-size: 1.7rem;
-    }
+
 }
