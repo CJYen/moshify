@@ -363,13 +363,5 @@ input
 }
 
 @media screen and (min-width: 1024px) {
-    .quote {
-        font-size: 2rem;
-    }
-    .quote__author {
-        font-size: 2.4rem;
-    }
-    .quote__organization {
-        font-size: 1.6rem;   
-    }
+    
 }
