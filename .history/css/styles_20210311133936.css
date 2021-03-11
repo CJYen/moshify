@@ -315,9 +315,7 @@ input
     }
 }
 
-/* media  */
-/* We will not modified the bg color for font size at this point
- since we don't know yet what if there is some other color option */
+/* media */
 .media {
     display: flex;
 }
@@ -325,8 +323,5 @@ input
     margin: 0;
 }
 .media__body {
-    margin: 0 2rem;
-}
-.media__image {
-    margin-top: 1rem;
+    /* margin: 0 2rem; */
 }
