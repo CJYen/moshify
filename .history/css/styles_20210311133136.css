@@ -296,7 +296,7 @@ input
     width: 40px;
     display: inline-block;
     position: absolute;
-    top: -6px;
+    top: 0;
     right: 5%;
 }
 
