@@ -221,6 +221,7 @@ input
     border: 1px solid var(--color-border);
     border-radius: var(--border-radius);
     display: flex;
+
 }
 .input-group .input {
     background-color: transparent;

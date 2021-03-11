@@ -210,7 +210,7 @@ input
     border-radius: var(--border-radius);
     border: 1px solid var(--color-border);
     color: var(--color-headings);
-    font-size: 2rem;
+    font-size: 1rem;
     outline: 0;
     padding: 1.5rem 3.5rem;
 }
@@ -223,11 +223,10 @@ input
     display: flex;
 }
 .input-group .input {
-    background-color: transparent;
     border: 0;
     flex-grow: 1;
     outline: 0;
-    padding: 2rem;
+    padding: 1.5rem 1rem;
 }
 .input-group .btn {
     margin: 4px;

@@ -221,13 +221,15 @@ input
     border: 1px solid var(--color-border);
     border-radius: var(--border-radius);
     display: flex;
+
 }
 .input-group .input {
-    background-color: transparent;
     border: 0;
     flex-grow: 1;
     outline: 0;
     padding: 2rem;
+    color: transparent;
+    background-color: transparent;
 }
 .input-group .btn {
     margin: 4px;

@@ -223,13 +223,11 @@ input
     display: flex;
 }
 .input-group .input {
-    background-color: transparent;
     border: 0;
     flex-grow: 1;
-    outline: 0;
-    padding: 2rem;
 }
 .input-group .btn {
+    border: 0;
     margin: 4px;
 }
 
