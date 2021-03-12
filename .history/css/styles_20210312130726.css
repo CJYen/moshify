@@ -431,7 +431,7 @@ input
     }
     .testimonial.quote {
         margin-left: 6rem;
-        /* margin-right: 0; */
+        margin-right: 0;
     }
 
 }
@@ -452,7 +452,8 @@ input
 }
 .callout .btn {
     justify-self: center;
-    align-self: center;
+    align-items: center;
+    margin: 100px;
 }
 .callout__content {
     text-align: center;

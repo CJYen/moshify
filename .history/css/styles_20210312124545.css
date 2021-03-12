@@ -207,7 +207,7 @@ a {
     color: var(--color-headings);
     border: 2px solid var(--color-headings);
 }
-.btn--stretched {
+.btn--stretch {
     padding-left: 6rem;
     padding-right: 6rem;
 }
@@ -437,10 +437,6 @@ input
 }
 
 /* Callouts */
-.callout {
-    padding: 4rem;
-    border-radius: 5px;
-}
 .callout--primary {
     background: var(--color-primary);
     color: #fff;
@@ -452,16 +448,13 @@ input
 }
 .callout .btn {
     justify-self: center;
-    align-self: center;
+    align-items: center;
 }
 .callout__content {
     text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-    .callout .grid--1X2 {
-        grid-template-columns: 1fr auto;
-    }
     .callout__content {
         text-align: left;
     }

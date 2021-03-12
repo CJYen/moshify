@@ -207,7 +207,7 @@ a {
     color: var(--color-headings);
     border: 2px solid var(--color-headings);
 }
-.btn--stretched {
+.btn--stretch {
     padding-left: 6rem;
     padding-right: 6rem;
 }
@@ -452,7 +452,7 @@ input
 }
 .callout .btn {
     justify-self: center;
-    align-self: center;
+    align-items: center;
 }
 .callout__content {
     text-align: center;
