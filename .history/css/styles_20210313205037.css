@@ -1,8 +1,4 @@
 /* Typography */
-::selection {
-    background: var(--color-primary);
-    color: #fff;
-}
 :root {
     --color-primary: #2584ff;
     --color-secondary: #00d9ff;
@@ -545,7 +541,8 @@ input
 }
 .block--dark h1,
 .block--dark h2,
-.block--dark h3 {
+.block--dark h3,
+ {
     color: #fff;
 }
 .block--skewed-right {

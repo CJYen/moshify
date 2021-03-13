@@ -1,8 +1,4 @@
 /* Typography */
-::selection {
-    background: var(--color-primary);
-    color: #fff;
-}
 :root {
     --color-primary: #2584ff;
     --color-secondary: #00d9ff;
@@ -40,7 +36,6 @@ h2 {
 }
 h3 {
     font-size: 3rem;
-    font-weight: 500;
 }
 p {
     margin-top: 0;
@@ -123,7 +118,7 @@ a {
 .list {
     list-style: none;
     padding-left: 0;
-    
+    color: var(--color-headings);
 }
 .list--inline .list__item {
     display: inline-block;
@@ -132,7 +127,6 @@ a {
 .list--tick {
     list-style-image: url(../images/tick.svg);
     padding-left: 3rem;
-    color: var(--color-headings);
 }
 .list--tick .list__item {
     padding-left: 0.5rem;
@@ -363,7 +357,6 @@ input
  since we don't know yet what if there is some other color option */
 .media {
     display: flex;
-    margin-bottom: 4rem;
 }
 .media__title {
     margin: 0;
@@ -545,16 +538,17 @@ input
 }
 .block--dark h1,
 .block--dark h2,
-.block--dark h3 {
+.block--dark h3,
+ {
     color: #fff;
 }
 .block--skewed-right {
     padding-bottom: calc(var(--padding-vertical) + 4rem);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
 }
 .block--skewed-left {
     padding-bottom: calc(var(--padding-vertical) + 4rem);
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 .container {
     max-width: 1140px;
@@ -617,7 +611,9 @@ input
 }
 
 /* Hero */
-
+.hero {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
 .hero__tagline {
     font-size: 2rem;
     color: #b9c3cf;
@@ -696,7 +692,7 @@ input
 }
 
 /* Showcase Block */
-.block-showcase__image >img {
+.block-showcase__image {
     width: 100%;
 }
 
