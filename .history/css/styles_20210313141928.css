@@ -620,8 +620,7 @@ input
 .block-domain .input-group {
     box-shadow: 0 0 30px 20px #e6ebee;
     border: 0;
-    margin: 4rem auto;
-    max-width: 670px;
+    margin: 4rem 0;
 }
 
 .block-domain__prices {
