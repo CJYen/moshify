@@ -482,19 +482,5 @@ input
     font-size: 3rem;
 }
 .collapsible__chevron {
-    transform: rotate(-90deg);
-    transition: 0.3s;
-}
-.collapsible__content {
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: all 0.3s;
-}
-.collapsible--extended .collapsible__chevron {
-    transform: rotate(0);
-}
-.collapsible--extended  .collapsible__content {
-    max-height: 100vh;
-    opacity: 1;
+    transform: degree(90);
 }
