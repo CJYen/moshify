@@ -289,9 +289,6 @@ input
 }
 
 /* plan */
-.plan {
-    transition: transform .2s ease-out;
-}
 .plan__name {
     color: #fff;
     margin: 0;
@@ -334,7 +331,7 @@ input
     transform: scale(1.05);
 }
 .plan--popular:hover {
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
 
 @media screen and (min-width: 1024px) {
@@ -659,7 +656,7 @@ input
 
 /* Plans Block */
 .block-plans .grid {
-    gap: 8rem 4rem;
+    gap: 4rem;
 }
 
 .block-plans .card {

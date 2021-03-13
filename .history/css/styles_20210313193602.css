@@ -659,7 +659,7 @@ input
 
 /* Plans Block */
 .block-plans .grid {
-    gap: 8rem 4rem;
+    gap: 4rem;
 }
 
 .block-plans .card {
