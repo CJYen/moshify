@@ -503,9 +503,7 @@ input
 .block {
     --padding-vertical: 6rem;
     padding: var(--padding-vertical) 2rem;
-}
-.block__header {
-    text-align: center;
+    border: 2px solid red;
 }
 .block__heading {
     margin-top: 0;
@@ -524,8 +522,4 @@ input
 .block--skewed-left {
     padding-bottom: calc(var(--padding-vertical) + 4rem);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-}
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
 }

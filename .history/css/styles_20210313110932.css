@@ -503,6 +503,7 @@ input
 .block {
     --padding-vertical: 6rem;
     padding: var(--padding-vertical) 2rem;
+    border: 2px solid red;
 }
 .block__header {
     text-align: center;
@@ -526,6 +527,5 @@ input
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 .container {
-    max-width: 1140px;
-    margin: 0 auto;
+    max-width: 1040px;
 }
