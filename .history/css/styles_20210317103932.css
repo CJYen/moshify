@@ -182,7 +182,7 @@ a {
     font-weight: 600;
     margin: 1rem 0;
     /* outline: 0; */
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -257,7 +257,6 @@ input
     flex-grow: 1;
     outline: 0;
     padding: 2rem;
-    width: 0;
 }
 .input-group .btn {
     margin: 4px;
@@ -588,7 +587,7 @@ input
     color: #fff;  
 }
 .nav__toggler {
-    opacity: 0.5;
+    /* opacity: 0.5; */
     transition: box-shadow 0.5s;
     cursor: pointer;
 }
@@ -610,7 +609,7 @@ input
         width: auto;
         display: flex;
         font-size: 1.6rem;
-        max-height: 100%;
+        max-width: 100%;
         opacity: 1;
     }
     .nav__item {
@@ -649,7 +648,6 @@ input
 }
 
 .block-domain__prices {
-    color: var(--color-headings);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 6rem);

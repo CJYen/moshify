@@ -649,7 +649,6 @@ input
 }
 
 .block-domain__prices {
-    color: var(--color-headings);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 6rem);
