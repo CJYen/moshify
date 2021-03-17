@@ -762,7 +762,6 @@ input
     .footer .collapsible__content {
         opacity: 1;
         max-height: 100%;
-        font-size: 1.6rem;
     }
     .footer__brand {
         order: -1;

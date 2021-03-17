@@ -657,7 +657,7 @@ input
 }
 @media screen and (min-width: 768px) {
     .block-domain__prices {
-        grid-template-columns: repeat(auto-fit, minimax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
 }
 
@@ -718,19 +718,9 @@ input
 .footer {
     background: #232323;
 }
-.footer a {
-    color: #777;
-    transition: color 0.3s;
-}
-.footer a:hover {
-    color: #fff;
-}
 .footer__section {
     padding: 2rem;
     border-bottom: 1px solid #393939;
-}
-.footer__section .list {
-    margin: 0;
 }
 .footer__heading {
     text-transform: uppercase;
@@ -739,12 +729,6 @@ input
 .footer__brand {
     margin-top: 5rem;
     text-align: center;
-}
-.footer__brand img {
-    /* TODO: consider refactor this and 
-    applying to all images */
-    width: 100%;
-    max-height: 230px;
 }
 .footer__copyright {
     font-size: 2.1rem;
@@ -759,22 +743,5 @@ input
     .footer .collapsible__chevron {
         display: none;
     }
-    .footer .collapsible__content {
-        opacity: 1;
-        max-height: 100%;
-        font-size: 1.6rem;
-    }
-    .footer__brand {
-        order: -1;
-        margin-top: 1rem;
-    }
-    .footer__copyright {
-        font-size: 1.5rem;
-    }
-    .footer__section {
-        border: 0;
-    }
-    .footer__heading {
-        font-size: 1.6rem;
-    }
+    
 }
